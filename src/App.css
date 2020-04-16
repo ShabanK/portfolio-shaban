@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #222321;
+  color: whitesmoke;
 }
 
 .navbarstuff {
@@ -9,6 +10,21 @@ body {
   height: 3.4rem;
   font-size: 1.6rem;
 }
+
+.profile-pic {
+  border-radius: 50%;
+  --picture-width: 20vh;
+  width: var(--picture-width);
+  height: var(--picture-width);
+}
+
+/* @media (max-width: 800px) {
+  .profile-pic {
+    --picture-width-l: 20%;
+    width: var(--picture-width-l);
+    height: var(--picture-width-l);
+  }
+} */
 
 @media (max-width: 320px) {
   .navbarstuff {

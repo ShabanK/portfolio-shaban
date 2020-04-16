@@ -14,7 +14,12 @@ function Aboutme() {
   //
   return (
     <>
-      <img src={profilePicture} alt="well i guess axios failed me" />
+      <img
+        className="profile-pic"
+        src={profilePicture}
+        alt="well i guess axios failed me"
+      />
+      <p>Oh look it's Shaban</p>
     </>
   );
 }
