@@ -33,7 +33,7 @@ function Skills() {
         </Row>
         <Row>
           <SkillCard img={postmanlogo} tip="Postman" />
-          <SkillCard img={htmllogo} tip="HTML" />
+          <SkillCard img={htmllogo} tip="HTML5" />
           <SkillCard img={csslogo} tip="CSS" />
           <SkillCard img={bootstraplogo} tip="Bootstrap" />
         </Row>
